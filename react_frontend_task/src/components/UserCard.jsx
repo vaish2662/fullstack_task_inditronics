@@ -15,6 +15,7 @@ function UserCard({name,email,role}) {
     <div>
     <Container>
       <h1>User Card</h1>
+      <h6>Props Data</h6>
       <Row>
        <Col><p>{name}</p></Col> 
         <Col><p>{email}</p></Col>
